@@ -24,6 +24,10 @@ public class SchoolClass {
 
     public SchoolClass() {};
 
+    public SchoolClass(String name) {
+        this.name = name;
+    }
+    
     public SchoolClass(String name, List<Student> students) {
         this.name = name;
         this.students = students;
